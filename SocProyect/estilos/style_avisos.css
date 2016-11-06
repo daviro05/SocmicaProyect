@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+.error_1
+{
+	color:white;
+	text-shadow: 0 0 0.2em #F87, 0 0 2em black;
+}
+
+.aviso
+{
+	color:white;
+	text-shadow: 0 0 0.2em yellow;
+	
+}
+
+.correcto
+{
+	color:white;
+	text-shadow: 0 0 0.2em #8F7;
+}

@@ -1,0 +1,174 @@
+html,body {
+	margin:0;
+	padding:0;
+	background:#3a4652 url("../imagenes/fond_index.gif") repeat-x;
+	font-family:arial,sans-serif;
+	font-size:small;
+	color:#ffffff;
+}
+
+div#container {
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	min-height:100%; /* real browsers */
+	text-align: center;
+}
+
+div#header {
+	position: relative;
+	padding:0em;
+	height:110px;
+	/*background: url(../imagenes/fond_haut_index.gif) top no-repeat;*/
+}
+
+/*div#logo {
+	float: left;
+	padding: 20px 0 0 30px;
+	width: 420px;
+	height: 104px;
+	text-align: left;
+}
+
+div#menu_inicio {
+	float: left;
+	padding:0em;
+	width: 450px;
+	height: 124px;
+	text-align: right;
+}*/
+
+div#logo {
+	float: left;
+	/*padding: 20px 0 0 30px;*/
+	width: 600px;
+	height: 80px;
+	text-align: left;
+	background: url(../imagenes/logoscomica.png) top no-repeat;
+	margin-top: 20px;
+}
+
+div#menu_inicio {
+	float: right;
+	padding:0em;
+	/*width: 450px;*/
+	height: 124px;
+	text-align: right;
+}
+
+div#imagenfond 
+{
+	position:absolute;
+	width:1000px;
+	height:500px;
+	text-align: center;
+}
+
+div#content {
+	padding: 0em 0em 5em;
+	color: #333;
+	text-align: center;
+	background: url("../imagenes/imgfondo.jpg") no-repeat;
+	height: 655px;
+}
+
+div#footer {
+
+	position:absolute;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	background: #292f37;
+	text-align: center;
+	z-index: 0;
+}
+
+div#copy {
+	position:absolute;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	text-align: right;
+	z-index: 1;
+}
+
+#login
+{
+	padding: 9px 0px 7px;
+	margin-right: 5px;
+	border-radius:6px;
+	color:#999999;
+	
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+
+#login:focus
+{
+	color:black;	
+}
+
+.registrarse
+{
+	color:#B7D9F7;
+}
+
+.recuperar
+{
+	color:#B7D9F7;
+	padding-right: 50px;	
+}
+
+#recordar
+{
+	color:#B7D9F7;
+	margin-right: 65px;	
+}
+
+input[type="submit"]
+{
+	padding: 9px 14px 7px;
+}
+
+
+a:hover{text-decoration:none;}
+
+a
+{
+	text-decoration:none;
+	color:#B7D9F7;
+}
+
+.error_2
+{
+	color:black;
+	text-align: right;
+	text-shadow: 0 0 0.2em #F87, 0 0 2em red;
+}
+
+h1 {
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+#cont_inicio
+{
+	border: 1px solid white;
+	border-radius:20px;
+	margin-left:2%;
+	margin-right:2%;
+	width: 96%;
+	height: 340px;
+
+}
+
+.copy {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin: 2px;
+}
